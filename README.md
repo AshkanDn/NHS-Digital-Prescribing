@@ -3,6 +3,7 @@ NLP + Exploratory Analysis for deriving insights from Practice level prescribing
 After four years of working in data science field I decided to share some of my implementation and techniques publicaly. It is a large coding file and need much more explanaiton. whenver I have time I will come and complete it. However, do not hesitate to ask your questions.
 
 The way the analysis has been done detailed through the following steps:
+
     Domain knowledge {NHS term glossary, Article}
     Data preparation 
     NLP,
@@ -32,16 +33,20 @@ load(file='dNHS.RData')
 This file is shared in my google.drive at the following address (it is 300M):
 https://drive.google.com/open?id=1BVbKlgeKAy4VkmPrAglEqRGvdWwlp3Wp
 This file contains 4 tables called: bnf, chem, prac and SBNF. 
+
   Chem: chemical names
   Prac: practice data
   Bnf: big bnf file
   SBNF:  a complementary file we will describe later
+  
 I added some measures to the data like, “is generic”, “is generic and branded” that were important for further analysis. However, I did not have time to use them for any analysis in this report.
 
 Acquiring domain knowledge to understand data is fundamental phase in every data science projects. To this end, after some research, I came to this idea of including All BNF sections so as to demonstrate trends for total prescribing and etc. To do so, we need NLP support in our programme. Therefore, I wrote an end-to-end code to:
+
   -	Connect to website and download its HTML content
   -	Process the content and extract sections, subsections, headers
   -	Create a reference table  
+  
 Thus, a table called SBNF was created. The key of the table is a 6-digit code corresponding to the first 6 digits of BNF codes in NHS Digital websites.
 
 

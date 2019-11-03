@@ -1,7 +1,7 @@
 # Ashkan Dashtban (dashtban.edu@gmail.com)
 # 11/10/2019
 
-# this file read data from NHS-Digital and openprescring, process them and create a unique comprehensive data table for 
+# this file reads data from NHS-Digital and openprescring, process them and create a unique comprehensive data table for 
 # various kinds of analysis. I shared the output file in my google drive. Please refer to the Readme file.
 
 ################## Read chemical names and identifiers

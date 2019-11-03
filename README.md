@@ -4,7 +4,7 @@ NLP + Exploratory Analysis for deriving insights from Practice level prescribing
 This project starts by reading prescrbing level data from NHS-Digital and openprescring, process them and create a unique comprehensive data table for comprehensice analysis. It uses the Practice Level Prescribing - August 2019 (https://digital.nhs.uk/data-and-information/publications/statistical/practice-level-prescribing-data/august-2019)
 and https://openprescribing.net/bnf/ to create a unique integrated database.
 
-After four years of working in data science field I decided to share some of my implementations and techniques publicaly. It is a large coding file and need much more explanaiton. whenver I have time I will come and complete it. However, do not hesitate to ask your questions.
+Actually, after about four years of working in data science field, finally I decided to start sharing some of my implementations and techniques i github. So, please consider mutiple issues in sharing. This R-file is a large coding file and need much more explanaiton. whenver I have time I will come and complete it. However, do not hesitate to ask your questions.
 
 The way the analysis has been done detailed through the following steps:
 

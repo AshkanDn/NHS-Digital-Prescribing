@@ -62,7 +62,7 @@ This file contains 4 tables called: bnf, chem, prac and SBNF.
   
 I added some measures to the data like, “is generic”, “is generic and branded” that were important for further analysis. However, I did not have time to use them for any analysis in this report.
 
-Acquiring domain knowledge to understand data is fundamental phase in every data science projects. To this end, after some research, I came to this idea of including All BNF sections so as to demonstrate trends for total prescribing and etc. To do so, we need NLP support in our programme. Therefore, I wrote an end-to-end code to:
+Acquiring domain knowledge to understand data is a fundamental phase in every data science project. To this end, after conducting research, I decided to include all BNF sections to demonstrate trends for total prescribing and more. To achieve this, our program requires NLP support. Therefore, I have developed an end-to-end code to:
 
     -   Connect to website and download its HTML content
     -	Process the content and extract sections, subsections, headers
@@ -96,8 +96,9 @@ What we can see is like:
 
 ![Picture5](https://user-images.githubusercontent.com/39264718/68087640-c73c4c80-fe4f-11e9-870b-a612b5f7fd97.png)
 
-As is obvious in the above figure, the programme could successfully identify the correct region using our strategy and the above records the “inBK” flag is true as they are in Blackpool too.  These regions and flags are critical as we will use them in any further analysis.
-Actually, the data preparation is the most important part which taken considerable time (almost 80%) in this research. Part of the time was for acquiring domain knowledge!
+As evident in the above figure, the program successfully identified the correct region using our strategy, and the "inBK" flag is true for the records located in Blackpool. These regions and flags are critical as they will be utilized in any further analysis.
+
+Data preparation is the most crucial aspect of this research, consuming a significant amount of time (approximately 80%). A portion of this time was dedicated to acquiring domain knowledge, which proved to be essential for the project.
 
 Many analyses about the data were performed part of which are in the code file; however due to the time and importance I decided to demonstrate some important figures and trends in the following parts. 
 For instance, we added other fields/flags for generic and branded drugs or average price per item but I did not have time to perform analysis.
@@ -112,8 +113,11 @@ We are keen to see which the highest-level presentation in UK are. The following
 
 ![Picture9](https://user-images.githubusercontent.com/39264718/68087678-066a9d80-fe50-11e9-9b1d-16d791f65c0c.png)
 
-The figure for London is about 50million which is considerably higher than others (70% higher than the immediate highest figure before that) . It is clear why! However, in visualization, I will exclude that to have better visualization here. In the above figure, the red dashed line represents the average ACT across all regions.
-The following tables shows 5 highest and lowest dispensing regions. Please note, a city should not be compared to a county statistically speaking! Nevertheless, I added it just for the sake of this application.
+The figure for London stands out at around 50 million, significantly higher than the others (about 70% higher than the immediate highest figure before it). The reason for this disparity is evident. However, for better visualization, I will exclude it here.
+
+In the above figure, the red dashed line represents the average ACT across all regions.
+
+The following tables show the five highest and lowest dispensing regions. It's worth noting that statistically speaking, a city should not be compared to a county. Nevertheless, I included it here for the sake of completeness.
 
 <img width="726" alt="Screen Shot 2019-11-03 at 3 39 22 PM" src="https://user-images.githubusercontent.com/39264718/68087717-27cb8980-fe50-11e9-9117-57e254230c11.png">
 
@@ -135,7 +139,7 @@ It is quite interesting that the Cardiovascular disease that identified as the t
 
 Although in terms of number of items dispensed the Cardiovascular system had the highest figure, herein it stands in the third but again among top 5 highest cost! Nevertheless, the higher the number of items, the higher the cost it can be! 
 
-Also, it is worth noting that our result is consistent with what we can see in openprescribing.net. They exhibited the national trends for Cardiovascular System for July 2019 which is about 27 million items. Looking the above table closely, in the bottom left where top 10 figures are shown, we see 27.1595 million number of items for cardiovascular system. This is compatible with the published figure below: 
+It's worth noting that our results are consistent with what we can observe on openprescribing.net. They displayed national trends for the Cardiovascular System for July 2019, which amounted to about 27 million items. Examining the table above closely, in the bottom left where the top 10 figures are displayed, we observe 27.1595 million items for the cardiovascular system. This aligns with the published figure mentioned below.
 
 <img width="632" alt="pic16" src="https://user-images.githubusercontent.com/39264718/68087811-e7204000-fe50-11e9-90de-af6614fa5f94.png">
 
@@ -157,13 +161,13 @@ Besides Cardiovascular, we can see the highest figures across all data. The foll
 
 <img width="693" alt="pic20" src="https://user-images.githubusercontent.com/39264718/68087853-4716e680-fe51-11e9-91e0-0566a10fb289.png">
 
-The Oral Anticoagulants in Cardiovascular System had actually the second highest presentations among all. From the chart, the first two highest figures are extremely different from others. Based on current data we cannot deduct any conclusion on Why and How. Nevertheless, if time allows we could delve further into it to see how it distributes within practices and regions. 
+The presentation of Oral Anticoagulants in the Cardiovascular System ranked second highest among all categories. Notably, the first two highest figures stand out significantly from the rest. However, based on the current data, we cannot draw any conclusions regarding the reasons behind this disparity. Nonetheless, given sufficient time, we could explore this further to understand how these figures are distributed among practices and regions.
 
-Due to the time, I would only some more visualization about such distributions in practice level to see which practices have the highest figures in UK. We omit results for distribution of BNF across practices for now.
+Due to time constraints, we will focus solely on additional visualizations to explore the distribution of Oral Anticoagulants in practice level across the UK. We will postpone the analysis of BNF distributions across practices for the time being.
 
 ![Picture21](https://user-images.githubusercontent.com/39264718/68087862-69a8ff80-fe51-11e9-99bf-83e5d0d11186.png)
 
-This barchart was obtained based on practice IDs. Running over practice names cannot be worked as there are similar names with different IDs. Obtaining names comes after this stage. The highest figure is for "OCTAGON MEDICAL PRACTICE".
+This bar chart was generated based on practice IDs rather than practice names due to the presence of similar names with different IDs. The practice names will be obtained in the subsequent stage. The practice with the highest figure is "OCTAGON MEDICAL PRACTICE".
 
 <img width="713" alt="pic22" src="https://user-images.githubusercontent.com/39264718/68087878-9bba6180-fe51-11e9-87d1-95d5d5ef07f0.png">
 

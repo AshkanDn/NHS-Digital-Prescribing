@@ -1,26 +1,57 @@
 # NHS-Digital-Prescribing
-NLP + Exploratory Analysis for deriving insights from Practice level prescribing - NHS Digital
+**Description:
+**The NHS-Digital-Prescribing project involves Natural Language Processing (NLP) and exploratory analysis to derive insights from Practice-level prescribing data provided by NHS Digital. The project aims to create a comprehensive dataset for analysis, combining prescribing data from NHS Digital and OpenPrescribing sources.
 
-The output of this project is usefull to reuse for any analysis upon NHS Digital Practice Level Prescribing data.  
+Data Sources:
 
-we will start by reading prescrbing level data from NHS-Digital and openprescring, process them and create a unique comprehensive data table for comprehensice analysis. It uses the Practice Level Prescribing - August 2019 (https://digital.nhs.uk/data-and-information/publications/statistical/practice-level-prescribing-data/august-2019)
-and https://openprescribing.net/bnf/ to create a unique integrated database.
+NHS Digital Practice Level Prescribing - August 2019 (https://digital.nhs.uk/data-and-information/publications/statistical/practice-level-prescribing-data/august-2019)
+OpenPrescribing (https://openprescribing.net/bnf/)
+Objective:
+The primary objective of the project is to process prescribing data from NHS Digital and OpenPrescribing, integrate them into a unified database, and perform exploratory analysis to derive actionable insights. The resulting dataset will be valuable for further analysis and research in the healthcare domain.
 
-Actually, after many years, this is among my first attempts to make some implementations publically available. So, please consider mutiple issues in doumentation and sharing. This R-file is a large coding file and needs much more explanaitons. whenver I have time I will come and complete it. However, do not hesitate to ask your questions.
+Implementation:
+The project involves the following steps:
 
-The way the analysis has been done detailed through the following steps:
+Reading prescribing level data from NHS Digital and OpenPrescribing sources.
+Data processing to create a comprehensive dataset suitable for analysis.
+Integration of data from both sources to form a unified database.
+Implementation of NLP techniques to extract insights from the textual data.
+Conducting exploratory analysis to uncover patterns and trends in the prescribing data.
+Documentation and sharing of implementation details, considering the need for further explanations and improvements.
+Note:
+This project represents one of the initial attempts to make implementations publicly available. The provided R-file contains extensive coding and requires additional explanations. Future updates will be made to enhance documentation. Feedback and questions are welcomed to improve clarity and understanding.
 
-    Domain knowledge {NHS term glossary, Article}
-    Data preparation 
-    NLP,
-    Data processing 
-    Curation, inspecting for missing/extreme values
-    Adding measures
-    Linking data and produce one final unit of data for analysis
-    Studding about data and visualization
+Please feel free to ask any questions or provide feedback to improve the project implementation and documentation.
 
-In this report, I included the implementation beside some of the graphs and bar charts. However, some explanations are necessary.
-For running this code, the following libraries should be installed.
+
+
+
+
+Description:
+The NHS-Digital-Prescribing project involves Natural Language Processing (NLP) and exploratory analysis to derive insights from Practice-level prescribing data provided by NHS Digital. The project aims to create a comprehensive dataset for analysis, combining prescribing data from NHS Digital and OpenPrescribing sources.
+
+**Data Sources:
+**
+NHS Digital Practice Level Prescribing - August 2019 (https://digital.nhs.uk/data-and-information/publications/statistical/practice-level-prescribing-data/august-2019)
+OpenPrescribing (https://openprescribing.net/bnf/)
+Objective:
+The primary objective of the project is to process prescribing data from NHS Digital and OpenPrescribing, integrate them into a unified database, and perform exploratory analysis to derive actionable insights. The resulting dataset will be valuable for further analysis and research in the healthcare domain.
+
+Implementation:
+The project involves the following steps:
+
+Reading prescribing level data from NHS Digital and OpenPrescribing sources.
+Data processing to create a comprehensive dataset suitable for analysis.
+Integration of data from both sources to form a unified database.
+Implementation of NLP techniques to extract insights from the textual data.
+Conducting exploratory analysis to uncover patterns and trends in the prescribing data.
+Documentation and sharing of implementation details, considering the need for further explanations and improvements.
+Note:
+This project represents one of the initial attempts to make implementations publicly available. The provided R-file contains extensive coding and requires additional explanations. Future updates will be made to enhance documentation. Feedback and questions are welcomed to improve clarity and understanding.
+
+Please feel free to ask any questions or provide feedback to improve the project implementation and documentation.
+
+Libraries used:
 
     library(XML)	
     library("methods")	

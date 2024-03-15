@@ -40,12 +40,12 @@ Please feel free to ask any questions or provide feedback to improve the project
     library(psych)	
     library(expss)
 
-These libraries are required because the written programme use NLP and visualizations. There might be difficulty in installing them. I strongly suggest to run the following command before start installing XML and Curl packages. (Run in the Terminal of RStudio)
+These libraries are necessary as the program utilizes NLP and visualization functionalities. Installing them may pose some difficulty. I strongly recommend running the following command before attempting to install the XML and Curl packages. (Run this command in the RStudio Terminal)
 
     conda install -c r r-xml=3.98_1.5
     brew install libxml2
 
-remark: if you are interested to use data for your analysis without going through the procedure I had gone, use the following approach I have provided and shared the output file. If you want to use the file for commercial or academic purposes we could have collaboration in that regard.
+**remark:** If you are interested in utilizing the data for your analysis without going through the procedure I implemented, you can use the following approach I have provided and access the output file. If you intend to use the file for commercial or academic purposes, we could discuss potential collaboration in that regard.
 
 You can use the data directly using the following command:
  

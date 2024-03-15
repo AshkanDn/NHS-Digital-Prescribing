@@ -7,7 +7,7 @@ NHS Digital Practice Level Prescribing - August 2019 (https://digital.nhs.uk/dat
 OpenPrescribing (https://openprescribing.net/bnf/)
 
 **Objective:**
-The primary objective of the project is to process prescribing data from NHS Digital and OpenPrescribing, integrate them into a unified database, and perform exploratory analysis to derive actionable insights. The resulting dataset will be valuable for further analysis and research in the healthcare domain.
+The primary objective of the project was to identify the diseases and practices in the UK with the highest prescription rates and analyze the drugs with the highest prescription rates for those conditions. To achieve this, data was collected from both NHS Digital and OpenPrescribing sources. Subsequently, a unified database was created, and exploratory analysis was performed on the integrated dataset.
 
 **Implementation:**
 The project involves the following steps:

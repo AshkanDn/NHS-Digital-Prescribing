@@ -24,8 +24,6 @@ Note:
 
 This project represents one of the initial attempts to make implementations publicly available. The provided R-file contains extensive coding and requires additional explanations. Future updates will be made to enhance documentation. Feedback and questions are welcomed to improve clarity and understanding.
 
-Please feel free to ask any questions or provide feedback to improve the project implementation and documentation.
-
 **Libraries:**
 
     library(XML)	

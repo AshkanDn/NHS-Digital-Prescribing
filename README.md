@@ -3,7 +3,7 @@
 
 **Data Sources**:
 
-NHS Digital Practice Level Prescribing - August 2019 (https://digital.nhs.uk/data-and-information/publications/statistical/practice-level-prescribing-data/august-2019)
+NHS Digital Practice Level Prescribing - August 2019 (https://digital.nhs.uk/data-and-information/publications/statistical/practice-level-prescribing-data/august-2019); and 
 OpenPrescribing (https://openprescribing.net/bnf/)
 
 **Objective:**
@@ -18,8 +18,9 @@ The project involves the following steps:
 4. Implementation of NLP techniques to extract insights from the textual data.
 5. Conducting exploratory analysis to uncover patterns and trends in the prescribing data.
 6. Documentation and sharing of implementation details, considering the need for further explanations and improvements.
-Note:
 
+
+Note:
 
 This project represents one of the initial attempts to make implementations publicly available. The provided R-file contains extensive coding and requires additional explanations. Future updates will be made to enhance documentation. Feedback and questions are welcomed to improve clarity and understanding.
 
